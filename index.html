@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML CI/CD Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            margin: 0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .card {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 14px #00000015;
+        }
+        h1 { color: #173b70; }
+        .status { color: #16803c; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Machine Learning CI/CD Pipeline</h1>
+        <h2>Model: Logistic Regression</h2>
+        <p><strong>Dataset:</strong> Iris Dataset</p>
+        <p><strong>Task:</strong> Flower Classification</p>
+        <p><strong>Model Accuracy:</strong> __MODEL_ACCURACY__</p>
+        <p><strong>CI Status:</strong> PASS</p>
+        <p><strong>CD Status:</strong> <span class="status">Deployed Successfully</span></p>
+        <p>Deployed automatically using GitHub Actions and GitHub Pages.</p>
+    </div>
+</body>
+</html>
